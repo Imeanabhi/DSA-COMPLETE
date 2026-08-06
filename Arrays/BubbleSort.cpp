@@ -34,9 +34,8 @@ int main() {
         cout << num << " ";
     }
     cout << endl;
-
+    cout<<"After Using Bubble Sort:\n";
     BubbleSort sorter;
     sorter.bubble_sort(arr);
-
     return 0;
 }
